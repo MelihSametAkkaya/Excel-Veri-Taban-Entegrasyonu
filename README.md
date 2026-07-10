@@ -9,18 +9,18 @@ Bu proje C# Windows Forms ve SQL Server kullanılarak geliştirilmiştir. Uygula
 
 # Kurulum
 
-1.Visual Studio ve C# ı kurun
-2. SQL Server'ı kurun.
-3. Veritabanını oluşturun ve gerekli tabloları ekleyin.
-4. CREATE DATABASE DB_EXCEL
-5. CREATE TABLE Personel(
-6. PersonelID INT IDENTITY(1,1),
-7. AD VARCHAR(50) NOT NULL,
-8. Soyad VARCHAR(50) NOT NULL,
-9. Maas INT NOT NULL)
-10. Uygulamayı çalıştırın Görünüm Sunucu Gezgininden yeni bağlantı ekleyin
-11. Eklediten sonra bağlantı dizisini kopyalayın
-12. Form1.cs içinde 11. satırda string baglanti = @"" arasına yapıştırın
-13. Proje kullanıma hazırdır 
+Visual Studio ve C# ı kurun
+SQL Server'ı kurun.
+Veritabanını oluşturun ve gerekli tabloları ekleyin.
+CREATE DATABASE DB_EXCEL
+CREATE TABLE Personel(
+PersonelID INT IDENTITY(1,1),
+AD VARCHAR(50) NOT NULL,
+Soyad VARCHAR(50) NOT NULL,
+Maas INT NOT NULL)
+Uygulamayı çalıştırın Görünüm Sunucu Gezgininden yeni bağlantı ekleyin
+Eklediten sonra bağlantı dizisini kopyalayın
+Form1.cs içinde 11. satırda string baglanti = @"" arasına yapıştırın
+Proje kullanıma hazırdır 
 
 
